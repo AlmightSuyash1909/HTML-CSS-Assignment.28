@@ -67,11 +67,20 @@ body{
     justify-content: space-between;
     align-items:center;
 }
+.flex-22{
+    flex:0 1 22%;
+}
 .flex-25{
     flex:0 1 25%;
 }
+.flex-30{
+    flex:0 1 30%;
+}
 .flex-40{
     flex:0 1 40%;
+}
+.flex-50{
+    flex:0 1 45%;
 }
 .center{
     display: flex;
@@ -156,7 +165,7 @@ body{
 /* section-1 */
 .section-1{
     padding:80px;
-    background-color:rgb(246 249 254);
+    background-color:rgb(230, 233, 236);
 }
 h2{
     font-size:22px;
@@ -204,7 +213,7 @@ p{
 /* SECtion - 2 */
 
 .section-2 {
-    padding:180px;
+    padding:120px 0;
 }
 
 .section-2 h3{
@@ -216,13 +225,16 @@ p{
 .section-2 .btn{
     margin:30px 0;
 }
-.section-2 .col-1{
+/* .section-2 .col-1{
     position:absolute;
     top:0px;
     left:100px;
+} */
+.section-2 .flex{
+    justify-content:space-around
 }
 .col-2{
-    width:40%;
+    width:32%;
     height:100px;
     background-color:rgba(255, 255, 255, 0.808);
     padding:20px;
@@ -230,6 +242,107 @@ p{
 .section-2 .col-2{
     position:absolute;
     top:70px;
-    left:500px;
-    height:530px;
+    right:50px;
+    height:430px;
+}
+
+/* Section-3 */
+
+.section-3{
+    padding-bottom:60px;
+}
+.section-3 .col{
+    background-color:rgb(230, 233, 236);
+    padding:20px;
+    text-align: center;
+    margin:80px 0;
+}
+.section-3 h3{
+    font-size:40px;
+    font-weight:900;
+    margin:10px 0;
+    color:rgb(46, 46, 78);
+    text-align: center;
+    margin-bottom:30px
+}
+.section-3 .flex{
+    justify-content: space-evenly;
+}
+.section-3 .btn-s{
+    color:rgb(243, 73, 51) !important;
+    border:2px solid rgb(243, 73, 51);
+    display:inline-block;
+    padding:8px 20px;
+    border-radius:8px;
+    text-decoration: none;
+}
+.col-btn{
+    margin:40px 0;
+    text-align: center;
+}
+
+
+/*  Section-4 */
+
+.section-4{
+    padding:60px;
+    background-color:rgb(230, 233, 236)
+}
+.section-4 h3{
+    font-size:30px;
+    font-weight:900;
+    color:rgb(46, 46, 78);
+    margin:10px 0
+}
+.section-4 .btn-c{
+    color:rgb(243, 73, 51) !important;
+    border:2px solid rgb(243, 73, 51);
+    display:inline-block;
+    padding:5px 20px;
+    border-radius:8px;
+    text-decoration: none;
+    margin:20px 10px;
+}
+.section-4 .flex{
+    justify-content:space-evenly;
+}
+.section-4 .col-1{
+    padding-left:100px;
+}
+.section-4 .col-img{
+    display:flex;
+}
+
+
+/*  Section - 5 */
+
+.section-5 {
+    padding:100px 0;
+}
+.section-5 h4 {
+    font-size:20px;
+    font-weight:900;
+    color:rgb(46, 46, 78);
+    margin:10px 0
+}
+.homepage-testi {
+    text-align: center;
+}
+.star{
+    color:rgb(226, 226, 0);
+    margin:20px 0;
+    font-size: 10px;
+}
+.homepage-testi h6{
+    font-weight:900
+}
+.qote {
+  display: flex;
+  justify-content: center;
+}
+
+/* Section - 6 */
+
+.section-6{
+    padding:100px 0;
 }
