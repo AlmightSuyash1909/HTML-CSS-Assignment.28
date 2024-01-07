@@ -67,14 +67,25 @@ body{
     justify-content: space-between;
     align-items:center;
 }
+.flex-10{
+    flex:0 1 15%;
+    margin:1%;
+}
+
+.flex-20{
+    flex: 0 1 20%;
+    margin:1%;
+}
 .flex-22{
     flex:0 1 22%;
 }
 .flex-25{
     flex:0 1 25%;
+    margin:1.5%;
 }
 .flex-30{
     flex:0 1 30%;
+    margin-right:2%;
 }
 .flex-40{
     flex:0 1 40%;
@@ -92,7 +103,7 @@ body{
 /* HEADER */
 
 .primary-header{
-    background-color: rgb(46, 46, 78);
+    background-color: #012d5b;
     color:white;
     padding:20px 0;
 }
@@ -156,7 +167,7 @@ body{
     font-size:40px;
     margin:0 0 20px 0;
     font-weight:900;
-    color:rgb(46, 46, 78);
+    color:#012d5b;
 }
 .hero-header p{
     color:rgb(243, 73, 51) ;
@@ -171,7 +182,7 @@ h2{
     font-size:22px;
     font-weight:900;
     margin:10px 0;
-    color:rgb(46, 46, 78);
+    color:#012d5b;
 }
 p{
     color:rgb(82, 84, 85);
@@ -181,7 +192,7 @@ p{
     font-size:30px;
     font-weight:900;
     margin:10px 0;
-    color:rgb(46, 46, 78);
+    color:#012d5b;
 }
 .section-1 .col{
     height:350px;
@@ -220,7 +231,7 @@ p{
     font-size:30px;
     font-weight:900;
     margin:30px 0;
-    color:rgb(46, 46, 78);
+    color:#012d5b;
 }
 .section-2 .btn{
     margin:30px 0;
@@ -261,7 +272,7 @@ p{
     font-size:40px;
     font-weight:900;
     margin:10px 0;
-    color:rgb(46, 46, 78);
+    color:#012d5b;
     text-align: center;
     margin-bottom:30px
 }
@@ -291,7 +302,7 @@ p{
 .section-4 h3{
     font-size:30px;
     font-weight:900;
-    color:rgb(46, 46, 78);
+    color:#012d5b;
     margin:10px 0
 }
 .section-4 .btn-c{
@@ -322,7 +333,7 @@ p{
 .section-5 h4 {
     font-size:20px;
     font-weight:900;
-    color:rgb(46, 46, 78);
+    color:#012d5b;
     margin:10px 0
 }
 .homepage-testi {
@@ -344,5 +355,143 @@ p{
 /* Section - 6 */
 
 .section-6{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.section-6 .busi {
+    color: rgb(243, 73, 51);
+    font-size:14px;
+}
+.section-6 p {
+    font-size:14px;
+}
+.section-6 h3{
+    font-size:40px;
+    font-weight:900;
+    margin:10px 0;
+    color:#012d5b;
+    text-align: center;
+    margin-bottom:30px;
+}
+.section-6 h2{
+    font-size:18px;
+    font-weight:900;
+    margin:10px 0;
+    color:#012d5b
+}
+.section-6 .flex{
+    justify-content:center;
+}
+.business-h{
+    margin: 16px 0 0 10px;
+}
+
+/* Section-7 */
+
+.section-7{
     padding:100px 0;
+    background-color:#012d5b;
+}
+.section-7 h3{
+    font-size:40px;
+    font-weight:900;
+    margin-bottom:10px;
+    color:white;
+    margin-bottom:30px;
+    line-height: 1;
+}
+.section-7  p{
+    color:white;
+}
+.section-7 .btn {
+    padding: 5px 50px;
+    margin-left: 20px;;
+}
+.section-7 input{
+    padding:10px  40px;
+    margin-left: 20px;
+    border-radius:5px;
+    border:1px solid white;
+    color:white;
+    background-color:#012d5b;
+    margin-bottom: 20px;;
+}
+.section-7 select{
+    padding:10px  140px;
+    margin-left: 20px;
+    border-radius:5px;
+    border:1px solid white;
+    color:white;
+    background-color:#012d5b;
+}
+.section-7 .flex{
+    justify-content: center;
+    align-items: stretch;
+}
+
+/* Footer */
+
+.footer{
+    padding:90px;
+}
+.footer h5{
+     font-size: 24px;
+     color:#012d5b;
+     font-size:500;
+     margin-bottom:10px
+}
+.footer p {
+    font-size: 14px;
+}
+.footer .flex {
+    justify-content: center;
+    align-items: stretch;
+}
+.footer img{
+    margin: 15px 0;
+}
+.com-list a {
+    text-decoration: none;
+    font-size:14px;
+    color:rgb(82, 84, 85);
+}
+.ul a {
+    text-decoration: none;
+    font-size:14px;
+    color:rgb(17, 18, 19);
+}
+.ul {
+    display:flex;
+    justify-content:flex-start;
+}
+.ul li {
+    margin:20px 0;
+    margin-right:10px;
+}
+.com-list li {
+    text-decoration: none;
+    font-size:14px;
+    color:rgb(82, 84, 85);
+}
+.footer li {
+    font-size:14px;
+    color:rgb(82, 84, 85);
+    margin-bottom: 10px;;
+}
+
+.footer hr {
+    max-width: 800px;
+    text-align: center;
+    border:1px solid rgba(179, 174, 174, 0.616);
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.copy i,b {
+    color:rgb(212, 21, 21);
+}
+.footer .copy{
+    font-size:14px;
+    color:rgb(82, 84, 85);
+    text-align: center;
+    margin-top: 60px;
 }
