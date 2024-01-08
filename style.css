@@ -495,3 +495,107 @@ p{
     text-align: center;
     margin-top: 60px;
 }
+
+
+/* About Page */
+
+.about-hero {
+    background:url(media/about_hero.jpg) no-repeat ;
+    padding:80px 0;
+    background-size: contain;
+}
+.about-hero h1{
+    font-size:40px;
+    color:white;
+    text-align:center;
+    font-weight:900;
+}
+
+/* Service Page */
+
+.services-hero{
+    background:url(media/services_hero.jpg) no-repeat ;
+    padding:80px 0;
+    background-size: cover;
+}
+.services-hero h1{
+    font-size:40px;
+    color:white;
+    text-align:center;
+    font-weight:900;
+}
+.section3-about{
+    padding:80px 0;
+}
+
+/* Cases Page */
+
+.cases-hero{
+    background:url(media/cases_hero.jpg) no-repeat ;
+    padding:80px 0;
+    background-size: contain;
+}
+.cases-hero h1{
+    font-size:40px;
+    color:white;
+    text-align:center;
+    font-weight:900;
+}
+.cases-section-2{
+    padding: 100px 0 20px 0 ;
+    
+}
+.case-img{
+    position: relative;
+}
+.case-img-1{
+    background: url(media/completed_case_1.png)  no-repeat;
+    background-size: contain;
+    height:450px;
+    margin:26px 0;
+}
+.case-heading {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding:5px 10px;
+    width:250px;
+    position: absolute;
+    top:265px
+}
+.case-heading h2{
+    margin:0;
+}
+.case-img-2{
+    background: url(media/completed_case_2.png) no-repeat;
+    height:450px;
+    background-size: contain;
+}
+.case-img-3{
+    background: url(media/completed_case_3.png) no-repeat;
+    height:450px;
+    background-size: contain;
+}
+.case-img-4{
+    background: url(media/completed_case_4.png) no-repeat;
+    height:450px;
+    background-size: contain;
+}
+.case-img-5{
+    background: url(media/completed_case_5.png) no-repeat;
+    height:450px;
+    background-size: contain;
+}
+.case-img-6{
+    background: url(media/completed_case_6.png) no-repeat;
+    height:450px;
+    background-size: contain;
+}
+
+.cases-section-2 .flex{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.case-img{
+    flex:0 1 25%;
+    margin:1%;
+}
